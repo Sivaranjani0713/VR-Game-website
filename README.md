@@ -1,5 +1,5 @@
 # Clone this repository
-$ git clone https://github.com/your-username/vr-game-website.git
+$ git clone https://sivaranjani0713.github.io/VR-Game-website/
 
 # Go into the repository
 $ cd vr-game-website
