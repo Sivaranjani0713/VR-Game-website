@@ -1,0 +1,278 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+@media screen and (max-width: 670px){
+  body .all {
+    height: 665px;
+  }
+  body .all .main {
+    width: 90%;
+    height: 100%;
+    padding: 0px;
+    margin: auto;
+    display: block;
+  }
+  .right {
+    display: none;
+  }
+  .main .left {
+    background-image: url(./asset/ChatGPT\ Image\ May\ 26\,\ 2025\,\ 11_17_29\ PM-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateY(16%);
+    border-radius: 20px;
+  }
+  body .main .left .form {
+    background: transparent;
+    backdrop-filter: blur(2px);
+    width: 100%;
+    height: 480px;
+    border-radius: 20px;
+    padding: 0px;
+  }
+  .main .left .form input {
+    background-color: transparent;
+    color: white;
+  }
+  .main .left .form .flex-row {
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .main .left .form .flex-row .flex-one {
+    display: flex;
+    gap: 10px;
+    margin: 0px;
+  }
+  .main .left .form .flex-row span {
+    font-size: 10px;
+  }
+  .main .left .form .button-submit {
+    margin: 0 auto;
+    background-color: #151717;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 15px;
+    height: 40px;
+    width: 90%;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid transparent;
+  }
+  .main .left .form p {
+    font-size: 13px;
+  }
+  .main .left .form label {
+    font-size: 13px;
+    margin: 0px;
+  }
+  .main .left .form .label-input {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+  }
+  .main .left .form .label-input .first {
+    display: flex;
+    gap: 10px;
+  }
+  .main .left .form .label-input .first .inputForm {
+    display: flex;
+    padding: 0px;
+    width: 100%;
+    height: 30px;
+    border-radius: 6px;
+  }
+  .main .left .form .label-input .first .inputForm img {
+    width: 28px;
+    padding: 0px 0px 0px 10px;
+  }
+}
+.all {
+  height: 729px;
+  display: flex;
+  background-color: #010121;
+}
+.main {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  position: relative;
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+}
+.vrimage {
+  width: 400px;
+  height: 99%;
+  margin: auto;
+  object-fit: cover;
+  border: 1px solid transparent;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  transform: scaleX(-1);
+}
+/* From Uiverse.io by JohnnyCSilva */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #1a0248;
+  padding: 30px;
+  width: 430px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.label-input {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+::placeholder {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+
+.form button {
+  align-self: flex-end;
+}
+
+.flex-column > label {
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.inputForm {
+  border: 1.5px solid #ecedec;
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.input {
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: #1f0b44;
+  color: white;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.inputForm:focus-within {
+  border: 1.5px solid #2d79f3;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.flex-row > div > label {
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+}
+
+.span {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #2d79f3;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button-submit {
+  margin: 20px 0 10px 0;
+  background-color: #151717;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid transparent;
+}
+.button-submit::before {
+  background: linear-gradient(90deg, #d10ed1, #10a3da);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  padding: 1px;
+  margin: 0px 0px 0px 0px;
+}
+.p {
+  text-align: center;
+  color: black;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  gap: 10px;
+  border: 1px solid transparent;
+  background-color: rgb(34, 22, 70);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  position: relative;
+}
+.btn::before {
+  background: linear-gradient(90deg, #d10ed1, #10a3da);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  padding: 1px;
+  margin: 0px 0px 0px 0px;
+}
+.btn:hover {
+  border: 1px solid black;
+}

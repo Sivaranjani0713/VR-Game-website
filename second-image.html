@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    .main {
+      width: 100%;
+      height: 727px;
+      background-color: black;
+      position: relative;
+    }
+    .second-image img {
+      transform: translateX(13%);
+      box-shadow: 0 0 20px rgba(0, 0, 255, 0.4), 0 0 20px rgba(0, 0, 355, 0.4);
+      width: 80%;
+      height: 650px;
+      padding: 10px;
+      cursor: pointer;
+    }
+    .close {
+      width: 3%;
+      height: 6%;
+      position: absolute;
+      top: 3%;
+      right: 22%;
+    }
+    @media screen and (max-width: 670px) {
+      .main .second-image img {
+        transform: translateX(2%) translateY(45%);
+        width: 95%;
+        height: 320px;
+        margin: 0;
+      }
+      .main .close {
+        width: 5%;
+        height: 4%;
+        position: absolute;
+        top: 20%;
+        right: 3%;
+      }
+    }
+  </style>
+  <body>
+    <div class="main">
+      <div class="second-image">
+        <img
+          src="./asset/536d9f199d8909cdac1d99f47a22b305aec76675.png"
+          alt=""
+        />
+      </div>
+      <img
+        id="closes"
+        class="close"
+        src="./asset/cancel_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png"
+        alt=""
+        onclick="closePic()"
+      />
+    </div>
+    <script src="./webpage.js"></script>
+  </body>
+</html>

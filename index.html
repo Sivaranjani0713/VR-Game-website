@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./webpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+    <div class="main">
+    <div class="all">
+        <div class="header">
+            <img src="./asset/566a894f1ed1cb83675b782b3ecb9c2eefd06060 - Copy.png" alt="">
+            <h1>VR GAMES</h1>
+        </div>
+        <div id="Sidenav" class="nav">
+            <a onclick="goTohome()" href="#">HOME</a>
+            <a onclick="goToabout()" href="#">ABOUT</a>
+            <a onclick="goToservice()" href="#">SERVICE</a>
+            <a onclick="goTovrgames()" href="#">VR GAMES</a>
+            <img src="./asset/search_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            <button onclick="goTologin()" >Sign Up</button>
+        </div>
+        <div id="menu" class="menu">
+            <img src="./asset/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="" onclick="menuOnClick()">
+        </div>
+    </div>
+    <div id="menulist" class="menulist">
+        <img class="cancel" src="./asset/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="" onclick="menuOnClick()">
+        <div class="lists">
+            <a onclick="goTohome()" href="#">HOME</a>
+            <a onclick="goToabout()"  href="#">ABOUT</a>
+            <a onclick="goToservice()" href="#">SERVICE</a>
+            <a onclick="goTovrgames()" href="#">VR GAMES</a>
+            <button onclick="goTologin()" >Login</button> 
+        </div>
+    </div>
+    <div id="all-one" class="all-1">
+        <div class="content" data-aos="fade-right">
+            <p class="cont-1">BUSINESS & TRAINING SOLUTIONS</p>
+            <h1>ENHANCE LEARNING & <br>COLLABRATION WITH VR</h1>
+            <p class="cont-2">TAKE YOUR BUSINESS TO THE NEXT LEVEL WITH IMMERSIVE VR <br>TRAINING AND COLLABRATION TOOLS. BOOTS PRODUCTIVITY, <br>IMPROVE ENGAGEMENT, AND CREATE REALSITIC SIMULATION <br>FOR SKILL DEVELOPMENT</p>
+            <div class="btns">
+                <button class="explore">EXPLORE</button>
+            <button class="play" onclick="openVideo()">
+                <img src="./asset/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                PLAY DEMO</button>
+            </div>
+            <div class="content-1">
+                <img class="small-border" src="./asset/Rectangle 81.png" alt="">
+                <h1>LOREM IPSUM IS A DUMMY</h1>
+                <p>LOREM IPSUM IS A DUMMY OR PLACEHOLDER TEXT COMMONLY<br>USED IN GRAPICS DESIGN, PUBLISHING, WEB DEVELOPMENT <br>TO FILL EMPTY SPACES IN A LAYOUT THAT DOES NOT
+                    YET <br>HAVE CONTENT.</p>
+                <div class="glass">
+                    <img src="./asset/7c9a19cff52862f2efd650e7e5be67867ff90eb9_-_Copy-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="content-3"  data-aos="fade-left">
+            <img class="body-img" src="./asset/34f_-removebg-preview.png" alt="">
+        </div>
+    </div>
+    <div class="box" data-aos="fade-up">
+        <div class="box-1">
+            <div>
+                <img src="./asset/d666db2e0b0b64440ff26aa58583c1921c2bc97b.png" alt="">
+            </div>
+            <div class="box-cont">
+                <h1>BUSINESS & TRAINING SOLUTIONS</h1><br>
+                <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR <br>ADIPISCING ELIT, LOREM IPSUM DOLOR SIT <br>AMET, CONSECTETUR ADIPISCING ELIT</p><br>
+                <div class="box-sub">
+                    <div class="box-subs">
+                        <img src="./asset/favorite_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt=""> <p>1.3k</p>
+                    </div>
+                    <div>
+                        <button>EXPLORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-2">
+            <div>
+                <img src="./asset/2c425726aeba7079b93a804fdc8f6e4d65e057ed.png" alt="">
+            </div>
+            <div class="box-cont-1">
+                <h1>Vr Gaming & Entertainment</h1>
+                <br>
+                <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR <br>ADIPISCING ELIT, LOREM IPSUM DOLOR SIT <br>AMET, CONSECTETUR ADIPISCING ELIT</p><br>
+                <div class="box-sub-1">
+                    <div class="box-subs-1">
+                        <img src="./asset/favorite_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                        <p>2.3k</p>
+                    </div>
+                    <div>
+                        <button>EXPLORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-3">
+            <div>
+                <img src="./asset/2c425726aeba7079b93a804fdc8f6e4d65e057ed.png" alt="">
+            </div>
+            <div class="box-cont-2">
+                <h1>Vr Gaming & Entertainment</h1>
+                <br>
+                <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR <br>ADIPISCING ELIT, LOREM IPSUM DOLOR SIT <br>AMET, CONSECTETUR ADIPISCING ELIT</p><br>
+                <div class="box-sub-2">
+                    <div class="box-subs-2">
+                        <img src="./asset/favorite_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                        <p>2.3k</p>
+                    </div>
+                    <div>
+                        <button>EXPLORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="point">
+        <div class="point-1">
+            <img src="./asset/Star 1.png" alt="">
+            <h1>INNOVATION</h1>
+        </div>
+        <div class="point-1">
+            <img src="./asset/Star 1.png" alt="">
+                <h1>REVOLUTION</h1>
+        </div>
+        <div class="point-1">
+            <img src="./asset/Star 1.png" alt="">
+                <h1>PIONEERING</h1>
+        </div>
+        <div class="point-1">
+            <img src="./asset/Star 1.png" alt="">
+                <h1>NEXTGEN</h1>
+        </div>
+        <div class="point-1">
+            <img src="./asset/Star 1.png" alt="">
+                <h1>GAME CHANGER</h1>
+        </div>
+    </div>
+    <div id="all-two" class="all-2">
+        <div class="all-imgs" data-aos="flip-left" data-aos-delay="100">
+            <div class="border-img">
+                <img class="first-border" src="./asset/Vector 6.png" alt="">
+                <img class="second-border" src="./asset/Vector 5.png" alt="">
+            </div>
+            <img class="first-img" src="./asset/384ef4c4de3ac8c6e9a0a4d54b41afef586250ef.png" alt="">
+            <img class="second-img" src="./asset/46c43646033ce123e6236732f956847f2ba399da.jpg" alt="">
+        </div>
+        <div class="all-content">
+            <h1>ABOUT  US</h1>
+            <div  data-aos="fade-left">
+                <h2>Revolutionizing Reality, One Experience.</h2>
+                <div class="cont-01">
+                    <span>&#9702;</span>
+                    <p>At VR GAMES we are passionate about pushing the boundaries <br>of virtual reality. Our mission is to create immersive, interactive, <br>and innovative VR experiences that transform the</p>
+                </div>
+                <div class="cont-02">
+                   <span>&#9702;</span>
+                   <p>way people play, work, and explore. With cutting-edge <br>technology and a team of expert developers, designers, and <br>storytellers, we specialize in VR gaming, business solutions, </p>
+                </div>
+                <div class="cont-03">
+                    <span>&#9702;</span><p>virtual real estate tours, and custom VR development. Whether <br>you're stepping into an action-packed world, training in a <br>hyper-realistic environment, or exploring properties from <br>anywhere, we bring your vision to life</p>
+                </div>
+                <button onclick="scrollTocontact()" class="know-btn">KNOW MORE</button>
+            </div>
+        </div>
+    </div>
+    <div id="all-three" class="center">
+        <h1>Next-Gen Solutions</h1>
+        <p>Experience hyper-realistic gameplay, interactive worlds, and next-gen <br>entertainment that puts you in the center of the action</p>
+        <div class="card" data-aos="fade-up">
+            <div class="cards-1">
+                <img src="./asset/6b75c8bb08a93304f0b486cc6c21e2ab9e012286.png" alt="">
+                <h1>Virtual Real Estate & Tours</h1>
+                <p>Lorem ipsum is a dummy or placeholder text <br>commonly used in graphic design, publish & <br>web development to fill empty</p>
+                <button>Explore now</button>
+            </div>
+            <div class="cards-2">
+                <img src="./asset/88626ec3da134ae0c4bf0079fcddd0384b6ecb9c.png" alt="">
+                <h1>VR Gaming & Entertainmen</h1>
+                <p>Lorem ipsum is a dummy or placeholder text <br>commonly used in graphic design, publish & <br>web development to fill empty</p>
+                <button>Explore now</button>
+            </div>
+            <div class="cards-3">
+                <img src="./asset/ef978c6308dddb97a5bbe567807be5312e18b869.png" alt="">
+                <h1>Business & Training Solutions</h1>
+                <p>Lorem ipsum is a dummy or placeholder text <br>commonly used in graphic design, publish & <br>web development to fill empty</p>
+                <button>Explore now</button>
+            </div>
+        </div>
+    </div>
+    <div id="all-four" class="all-3">
+        <h1>Immersive <span class="game">VR Game</span> Creation</h1>
+        <p>Experience next-gen, hyper-realistic VR games with stunning visuals and <br>seamless gameplay. We craft custom VR solutions for entertainment, <br>training, and simulations—bringing your vision to life</p>
+        <div class="all-3-img">
+            <img id="drag-1" class="drag-1" src="./asset/d274261860279900891f0e2298546553cfa9fe3e.png" alt="" onclick="dragFirstimg()">
+            <img id="drag-2" class="drag-2" src="./asset/536d9f199d8909cdac1d99f47a22b305aec76675.png" alt="" onclick="dragsecondimg()">
+        </div>
+    </div>
+    <div class="all-4">
+        <div class="left">
+            <h1>EXPLORE PRODUCT IN</h1>
+            <div class="stright">
+                <h1> NEW WAY</h1>
+                <img src="./asset/Vector.png" alt="">
+            </div>
+            <p>We specialize in creating visual identities for products <br>and branda in your company.</p>
+            <div class="inputs-box">
+                <input style="color: white;"  id="yourEmail" type="text" placeholder="Your Email">
+                <div class="start-btn">
+                    <button onclick="clickStart() ">Start</button>
+                    <!-- <img src="./asset/arrow_outward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt=""> -->
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="./asset/60218a61806dd155000db80873c845157d52c79c.png" alt="">
+        </div>
+    </div>
+    <div class="all-5" >
+        <div class="all-left">
+            <h1>Why Choose Us for VR Games <br>Development?</h1><br>
+            <p>We craft immersive, high-performance VR games with stunning visuals, seamless gameplay, and <br>cutting-edge mechanics. From action-packed adventures to realistic simulations, our custom <br>-built experiences push the boundaries of virtual reality.</p>
+        </div>
+        <div class="all-right">
+            <img class="first-imgs" src="./asset/99825807d8610cd357b835d62445b176a34d1d60.png" alt="">
+            <img class="second-imgs" src="./asset/99825807d8610cd357b835d62445b176a34d1d60.png" alt="">
+        </div>
+    </div>
+    <div id="contactpage" class="contact" data-aos="fade-up">
+        <div class="left-contact">
+            <h1>Discover the best VR Games with Prismox</h1>
+            <div class="para-tag">
+            <p><img src="./asset/done_outline_24dp_78A75A_FILL0_wght400_GRAD0_opsz24.svg" alt="tick"> Pro VR Experiences:  Explore a curated selection of VR Games</p>
+            <p><img src="./asset/done_outline_24dp_78A75A_FILL0_wght400_GRAD0_opsz24.svg" alt="tick">Immersive Content:  Find action, adventures and more </p>
+            <p><img src="./asset/done_outline_24dp_78A75A_FILL0_wght400_GRAD0_opsz24.svg" alt="tick">Compatible Platforms:  Play on all major VR headsets</p>
+            </div>
+            <h5>Available Platforms:</h5>
+            <div class="platform">
+                <img class="meta" src="./asset/lead_281020212114_86158-removebg-preview.png" alt="">
+                <img class="play-station" src="./asset/PlayStationLogo_2-1024x569-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <div class="right-contact">
+            <form action="" class=" form">
+                <p class="form-para">Tell us about your preferences, and we'll get in touch</p>
+                <div class="form-all">
+                    <div class="sub-main">
+                        <div class="form-main">
+                            <div class="one">
+                                <label for="">First Name</label>
+                                <input type="text" placeholder="Enter your First Name">
+                            </div>
+                            <div class="one">
+                                <label for="">Last Name</label>
+                                <input type="text" placeholder="Enter your Last Name">
+                            </div>
+                        </div>
+                        <div class="form-main">
+                            <div class="one">
+                                <label for="">Email</label>
+                                <input type="text" placeholder="Enter your Email">
+                            </div>
+                            <div class="one">
+                                <label for="">VR Headset</label>
+                                <select name="option" id="">
+                                    <option value="">Quest 1</option>
+                                    <option value="">Quest 2</option>
+                                    <option value="">Quest 3</option>
+                                    <option value="">Quest 4</option>
+                                    <option value="">Quest 5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-mains">
+                        <p>What type of Game do you like?</p>
+                        <select class="big" name="option" id="">
+                            <option value="">Action</option>
+                            <option value="">Fight</option>
+                            <option value="">Adventures</option>
+                            <option value="">Games</option>
+                        </select>    
+                    </div>
+                    <div class="form-mains">
+                        <p>How can we assist you?</p>
+                        <textarea name="" id=""></textarea>
+                    </div>
+                    <button class="send">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <img class="last-line" src="./asset/Rectangle 83.png" alt="">
+    <div class="one-lasttime">
+        <div class="header">
+            <img src="./asset/566a894f1ed1cb83675b782b3ecb9c2eefd06060 - Copy.png" alt="">
+            <h1>VR GAMES</h1>
+        </div>
+
+        <div class="social-media-app">
+            <a href="https://www.google.com/search?q=facebook&oq=facebook+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIOCAEQRRgnGDsYgAQYigUyBggCECMYJzINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDIKCAUQABixAxiABDIKCAYQABixAxiABDIQCAcQABiDARixAxiABBiKBTIHCAgQABiPAjIHCAkQABiPAtIBCTcyNTRqMGoxNagCCLACAfEFHNV5U5NYe3U&sourceid=chrome&ie=UTF-8"><img src="./asset/social-media.png" alt=""></a>
+            <a href="https://www.instagram.com/taekookmin_addicter/"><img src="./asset/instagram.png" alt=""></a>
+           <a href="https://www.google.com/search?q=linkedin&oq=linked&gs_lcrp=EgZjaHJvbWUqGAgAEAAYQxiDARjjAhixAxjJAxiABBiKBTIYCAAQABhDGIMBGOMCGLEDGMkDGIAEGIoFMhsIARAuGEMYgwEYxwEYsQMYyQMY0QMYgAQYigUyBggCEEUYOTIPCAMQABgUGIcCGLEDGIAEMhIIBBAAGEMYgwEYsQMYgAQYigUyFQgFEC4YQxjHARixAxjRAxiABBiKBTIMCAYQABgUGIcCGIAEMgoIBxAAGLEDGIAEMgcICBAAGI8CMgcICRAAGI8C0gEJNDM5MWowajE1qAIJsAIB8QXNDr-OR9lwFQ&sourceid=chrome&ie=UTF-8"> <img src="./asset/linkedin.png" alt=""></a>
+           <a href="https://www.youtube.com/feed/you"> <img src="./asset/play.png" alt=""></a>
+        </div>
+    </div>
+    <img class="body-imgs" src="./asset/Component 24 – 3.png" alt="">
+    <img class="body-imgs-star" src="./asset/Vector (2).png" alt="">
+    <img class="body-imgs-round" src="./asset/cube 1.png" alt="">
+    <img class="body-imgs-stars" src="./asset/Vector (2).png" alt="">
+   </div>
+   <div class="main-page-video">
+    <div id="myVideo" class="play-demo" onclick="">
+        <video id="playVideo" onclick="" controls>
+          <source
+            src="./asset/WhatsApp Video 2025-05-22 at 11.19.13_aff01a37.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+</div>
+   <div class="main-pro">
+       <div id="notify" class="startbtns">
+            <div class="sub-pro">
+                <h1> Thank  you </h1>
+                <p>Thank you for combaining with this brand</p>
+                <button onclick="closeStart()">Submit</button>
+            </div>
+       </div>
+    </div>
+   <script src="webpage.js"></script>
+  </body>
+</html>
